@@ -13,4 +13,4 @@ Group 3 pin selection for voltage outputs: 34-43
 Ultrasonic sensor have maximum 400 cm range.I convert to metre.So when distance is 4m there is maximum output.
 
 
-And here i tested code with using leds: https://wokwi.com/arduino/projects/320301757666165332
+And here i tested code using leds: https://wokwi.com/arduino/projects/320301757666165332
