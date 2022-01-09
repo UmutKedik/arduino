@@ -4,15 +4,15 @@ int sens1echoPin = 3; //Sensor 1 group 1
 int sens2echoPin = 4; //Sensor 2 group 1
 int sens3echoPin = 5; //Sensor 3 group 1
 
-int sens4echoPin = 6; //Sensor 4 group 1
-int sens5echoPin = 7; //Sensor 5 group 1
-int sens6echoPin = 8; //Sensor 6 group 1
-int sens7echoPin = 9; //Sensor 7 group 1
+int sens4echoPin = 6; //Sensor 4 group 2
+int sens5echoPin = 7; //Sensor 5 group 2
+int sens6echoPin = 8; //Sensor 6 group 2
+int sens7echoPin = 9; //Sensor 7 group 2
 
-int sens8echoPin = 10; //Sensor 8 group 1
-int sens9echoPin = 11; //Sensor 9 group 1
-int sens10echoPin = 12; //Sensor 10 group 1
-int sens11echoPin = 13; //Sensor 11 group 1
+int sens8echoPin = 10; //Sensor 8 group 3
+int sens9echoPin = 11; //Sensor 9 group 3
+int sens10echoPin = 12; //Sensor 10 group 3
+int sens11echoPin = 13; //Sensor 11 group 3
 
 float durationSens1, distanceSens1;
 float durationSens2, distanceSens2;
@@ -60,7 +60,7 @@ void setup() {
 }
 
 void loop() {
-  //trigger pin activation and conversion of distance
+  //trigger pin activation and conversion to distance
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(20);
   digitalWrite(trigPin, LOW);
